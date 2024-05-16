@@ -28,6 +28,7 @@ Det är steg-för-steg instruktioner för hur man skapar ett Angularprojekt.
 
 ### 4. Generera nya komponenter:
 `ng generate component component-name`
+
 Man kan också använda `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ### Bygg projektet:
@@ -38,6 +39,7 @@ Man kan också använda `ng generate directive|pipe|service|class|guard|interfac
 
 ### Kör end-to-end-tester:
 `ng e2e`
+
 För att använda detta kommando, lägg först till ett paket som implementerar end-to-end testfunktionalitet.
 
 ### Ytterligare hjälp
