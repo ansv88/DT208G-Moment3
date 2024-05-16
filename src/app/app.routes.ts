@@ -10,5 +10,5 @@ export const routes: Routes = [
     { path: 'convert', component: ConvertComponent},
     {path: '', redirectTo: '/home', pathMatch: 'full'},
     {path: '404', component: NotFoundComponent},
-    {path: '**', component: NotFoundComponent}
+    {path: '**', redirectTo: '/404'}
 ];
