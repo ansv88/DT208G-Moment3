@@ -1,0 +1,19 @@
+<header>
+  <nav class="navbar">
+    <div class="logo">Angular I</div>
+    <ul class="links">
+      <li><a routerLink="/home" routerLinkActive="current">Startsidan</a></li>
+      <li><a routerLink="/about" routerLinkActive="current">Om sidan</a></li>
+      <li><a routerLink="/convert" routerLinkActive="current">Konvertering</a></li>
+    </ul>
+    <div class="toggle-btn" (click)="toggleMenu()">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+
+  <ul class="dropdown-menu" [class.open]="isMenuOpen">
+    <li><a routerLink="/home" routerLinkActive="current">Startsidan</a></li>
+    <li><a routerLink="/about" routerLinkActive="current">Om sidan</a></li>
+    <li><a routerLink="/convert" routerLinkActive="current">Konvertering</a></li>
+  </ul>
+</header>

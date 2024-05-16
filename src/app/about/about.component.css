@@ -1,0 +1,52 @@
+/* Styling för text */
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p {
+  font-weight: bold;
+}
+
+/* Container för innehåll */
+.content {
+  width: 100%;
+  margin: 0 auto 5vh auto;
+  padding: 1rem;
+  text-align: justify;
+}
+
+/* Container för bilden */
+.img-container {
+  display: flex;
+  margin: 0 0 2rem 0;
+  position: relative;
+}
+
+/* Bild */
+.cat-pic {
+  height: 120px;
+  transform: scaleX(-1);
+}
+
+/* Större skärmar */
+@media (min-width: 768px) {
+
+  .content {
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .img-container {
+    position: absolute;
+    bottom: 5vh;
+    left: 0;
+    margin: 0;
+  }
+
+}

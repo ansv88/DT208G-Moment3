@@ -1,0 +1,14 @@
+<div class="temperature">
+    <h3>Celsius - Fahrenheit</h3>
+    <div class="input-container">
+        <label for="celsius">Celsius:</label>
+        <input id="celsius" [(ngModel)]="celsius" (input)="convertCelsiusToFahrenheit()" type="number" class="input-field">
+    </div>
+    <div class="input-container">
+        <label for="fahrenheit">Fahrenheit:</label>
+        <input id="fahrenheit" [(ngModel)]="fahrenheit" (input)="convertFahrenheitToCelsius()" type="number" class="input-field">
+    </div>
+    <div class="result">
+        <p>{{ celsius }}°C är {{ fahrenheit }}°F.</p>
+    </div>
+</div>

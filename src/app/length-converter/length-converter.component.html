@@ -1,0 +1,14 @@
+<div class="length">
+  <h3>Meter - fot</h3>
+  <div class="input-container">
+    <label for="meters">Meter:</label>
+    <input id="meters" [(ngModel)]="meters" (input)="convertMetersToFeet()" type="number" class="input-field">
+  </div>
+  <div class="input-container">
+    <label for="feet">Fot:</label>
+    <input id="feet" [(ngModel)]="feet" (input)="convertFeetToMeters()" type="number" class="input-field">
+  </div>
+  <div class="result">
+    <p>{{ meters }} meter är {{ feet }} fot.</p>
+  </div>
+</div>

@@ -1,0 +1,63 @@
+<main>
+  <h2>Om sidan</h2>
+  <article class="content">
+    <h3>Konstruktion</h3>
+    <p>
+      Webbplatsens är uppbyggd med flera olika komponenter. Till att börja med
+      har respektive undersida var sin komponent, samt en komponent för en
+      404-sida. Därefter finns det också komponenter för header, footer,
+      length-converter och temperature-converter. De två sistnämnda
+      komponenterna visas på Konvertingssidan.
+    </p>
+    <br />
+    <p>
+      I konverteringskomponenterna importeras FormsModule för att kunna få
+      tillgång till [(ngModel)] och two-way data binding i templaten. I övrigt
+      importeras också RouterLink och routerLinkActive i header-komponenten för
+      att inte sidan ska laddas om när användaren använder navigeringen.
+    </p>
+    <br />
+    <p>
+      Sidan har stylats med CSS-kod, där varje komponent har egna stilregler och
+      de globala stilreglerna finns i filen styles.css. I index.html är det
+      också inkluderat en länk till cdnjs och FontAwesome för att få tillgång
+      till hamburgerikonen i mobilläge i menyn. Webbplatsen är responsiv och
+      fungerar på små och stora skärmar. En bild har inkluderats på alla
+      undersidor. I filstrukturen finns bilden i en egen katalog
+      <i>images</i> som ligger i <i>assets</i>. Bilden är sedan tillagd via respektive undersidas templates.
+    </p>
+  </article>
+
+  <article class="content">
+    <h3>Slutsatser</h3>
+    <p>
+      Innan den här uppgiften har jag aldrig provat att använda något ramverk
+      för utveckling. I början kändes det väldigt överväldigande med alla olika
+      filer i Angular och det verkade svårt att hitta var allt fanns och skulle
+      vara. Men efter att ha gått igenom teori och läshänvisningar för uppgiften
+      samt gjort en större tutorial på Youtube som var väldigt bra, så gick allt
+      mycket smidigare än vad jag trodde att det skulle göra. Även om jag långt
+      ifrån förstod allt i den tutorialen jag provade på Youtube så gav den
+      ytterligare känsla för var man i alla fall kan hitta saker och ting och
+      lite mer kött på benen hur allt hänger ihop. Jag har också haft svårt att
+      få ett flow i TypeScript-utveckling och det är fortfarande väldigt
+      knaggligt och svårt att få grepp om klass, konstruktor och interface.
+      Dock var det inte mycket TS-kod i den här uppgiften så det löste sig bra
+      ändå.
+    </p>
+    <br>
+    <p>
+      Jag tycker att det är roligt att vi börjar lära oss ramverk, då det blir
+      mer likt hur det kommer att se ut i arbetslivet sedan. Jag förstår vitsen
+      med att dela upp webbplatsen i olika komponenter för att göra det lättare
+      att hitta och underhålla. Jag har än så länge ingen erfarenhet av andra
+      ramverk så jag kan inte jämföra hur Angular är att arbeta med i jämförelse
+      med exempelvis React, men jag ser fram emot att få prova fler ramverk och
+      se vilka för- och nackdelar de har.
+    </p>
+  </article>
+
+  <div class="img-container">
+    <img src="assets/images/cat-8619611.svg" alt="katt" class="cat-pic" />
+  </div>
+</main>

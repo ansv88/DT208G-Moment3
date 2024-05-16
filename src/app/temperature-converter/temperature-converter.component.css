@@ -1,0 +1,57 @@
+/* Styling för text */
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Container för innehåll */
+.temperature {
+  width: 85%;
+  max-width: 500px;
+  margin: 2rem;
+  padding: 2rem;
+  border: 1px solid grey;
+}
+
+/* Input-fälten */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.input-container label {
+  margin-bottom: 0.5rem;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Större skärmar */
+@media (min-width: 768px) {
+  .input-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .input-container label {
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+
+  .input-field {
+    width: auto;
+    flex: 1;
+  }
+}
