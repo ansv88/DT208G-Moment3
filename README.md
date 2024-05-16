@@ -18,29 +18,29 @@ Nedan finns en översättning och sammanfattning av den autogenererade readme-in
 Det är steg-för-steg instruktioner för hur man skapar ett Angularprojekt.
 
 ### 1. Installera Angular CLI globalt:
-_npm install -g @angular/cli_
+`npm install -g @angular/cli`
 
 ### 2. Skapa ett nytt projekt :
-_ng new project-name_
+`ng new project-name`
 
 ### 3. Starta utvecklingsservern:
-_ng serve --open_ (öppnas i webbläsaren till `http://localhost:4200/`).
+`ng serve --open` (öppnas i webbläsaren till `http://localhost:4200/`).
 
 ### 4. Generera nya komponenter:
-_ng generate component component-name_
+`ng generate component component-name`
 Man kan också använda `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ### Bygg projektet:
-_ng build_
+`ng build`
 
 ### Kör enhetstester:
-_ng test_
+`ng test`
 
 ### Kör end-to-end-tester:
-_ng e2e_
+`ng e2e`
 För att använda detta kommando, lägg först till ett paket som implementerar end-to-end testfunktionalitet.
 
 ### Ytterligare hjälp
-För mer hjälp om Angular CLI, använd _ng help_ eller besök [Angular CLI Overview and Command Reference](https://angular.io/cli).
+För mer hjälp om Angular CLI, använd `ng help` eller besök [Angular CLI Overview and Command Reference](https://angular.io/cli).
 
 
